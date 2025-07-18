@@ -1,5 +1,16 @@
-# .gitignore
-venv/
+# Ignore Python bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore environment variable files
 .env
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
