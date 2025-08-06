@@ -19,8 +19,3 @@ Career Mentor Agent is a multi-agent system designed to guide students through c
 - **Multi-Agent Handoff Logic**
 - **Tool Integration**:
   - `get_career_roadmap()` – A tool to dynamically fetch skill progression for a given field.
-
-## 🚀 How to Run
-
-1. Clone this repository.
-2. Add your API key in the `.env` file:
