@@ -1,8 +1,9 @@
 from agents import Agent
+from tools.career_roadmap import get_career_roadmap
 
-class SkillAgent(Agent):
-    def __init__(self, model):
-        super().__init__(
-            name="SkillAgent",
-            instructions="You provide skill-building plans for a given career field."
-        )
+skill_agent = Agent(
+    name="SkillAgent",
+    instructions="Given a career choice, list the essential skills needed for that career.",
+    model=None,
+    handoffs=[]
+)
