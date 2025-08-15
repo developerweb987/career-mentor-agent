@@ -1,8 +1,8 @@
 from agents import Agent
 
-class JobAgent(Agent):
-    def __init__(self, model):
-        super().__init__(
-            name="JobAgent",
-            instructions="You provide real-world job roles based on the skills of the student."
-        )
+job_agent = Agent(
+    name="JobAgent",
+    instructions="Provide real-world job roles related to the chosen career.",
+    model=None,
+    handoffs=[]
+)
